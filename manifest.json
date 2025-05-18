@@ -1,0 +1,20 @@
+{
+  "name": "띠모와 같이보기",
+  "description": "영상 재생 시간을 팝업으로 보여줍니다.",
+  "homepage_url": "https://github.com/return0927",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+        "matches": ["https://www.coupangplay.com/*"],
+        "js": ["extractors/coupangplay.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ]
+}
