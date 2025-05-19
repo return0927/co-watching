@@ -1,6 +1,6 @@
 class API {
   constructor() {
-    this.baseUrl = "http://localhost:3000";
+    this.baseUrl = "https://co-play.enak.kr";
   }
 
   async getGroup(groupId) {
