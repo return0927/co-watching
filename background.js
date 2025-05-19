@@ -5,7 +5,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     case 'tab': {
       chrome.windows.create({
           focused: true,
-          url: 'indicator.html',
+          url: 'pages/index.html',
           type: 'popup',
           width: 600,
           height: 300,
