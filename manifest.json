@@ -6,7 +6,10 @@
   "manifest_version": 3,
   "content_scripts": [
     {
-        "matches": ["https://www.coupangplay.com/*"],
+        "matches": [
+          "https://www.coupangplay.com/home*",
+          "https://www.coupangplay.com/play/*"
+        ],
         "js": ["extractors/coupangplay.js"]
     }
   ],
