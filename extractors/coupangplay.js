@@ -85,7 +85,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       if (video) {
         if (isPlaying) {
           const delta = video.currentTime - time;
-          if (Math.abs(delta) > 5) {
+          if (Math.abs(delta) > 2) {
             video.currentTime = time;
           }
           video.play();
