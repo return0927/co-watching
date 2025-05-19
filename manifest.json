@@ -2,7 +2,7 @@
   "name": "띠모와 같이보기",
   "description": "영상 재생 시간을 팝업으로 보여줍니다.",
   "homepage_url": "https://github.com/return0927",
-  "version": "1.0",
+  "version": "1.1.1",
   "manifest_version": 3,
   "content_scripts": [
     {
